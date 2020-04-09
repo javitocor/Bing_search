@@ -1,8 +1,8 @@
 # Bing_Search
-
+Program built up with ruby to get HTTP information in every request to bing.com
 
 # What it does
-
+After adding some keywords you will get the cookies and HTTP code of the request. If you want you will also get the header(s) and body.
 
 # Built With
 - Ruby
@@ -15,6 +15,7 @@ To get a local copy up and running follow these simple example steps.
 Clone the project unto your local machine
 cd into the folder, and run 'ruby ./bin/main.rb' command.
 
+You can change the website inside the 'search method' to get the information of any HTTP request.
 # Prerequisites
 - Get the latest version of Ruby
 
