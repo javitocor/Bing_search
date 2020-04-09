@@ -1,36 +1,22 @@
-# Project Name
+# Bing_Search
 
 
 # What it does
 
 
 # Built With
-
-# Live Demo
-[Live Demo Link]()
+- Ruby
+- Gem rest-client
+- VSCode
 
 # Getting Started
 To get a local copy up and running follow these simple example steps.
 
 Clone the project unto your local machine
-cd into the folder, find the index.html file and open it
+cd into the folder, and run 'ruby ./bin/main.rb' command.
 
 # Prerequisites
-- Get your browsers up to date
-
-# Install
-- Install VSCode or any code editor you like
-- Install Node JS and nmp(most recents versions)
-- Run this command on your terminal in order to install stylelint: npm install stylelint stylelint-config-recommended --save-dev 
-
-# Run tests
-- Test the css by typing the command: npx stylelint .
-- Go to http://validator.w3.org/ , upload the index.html file to test it.
-
-# Deployment
-- Get an online web hosting
-- Upload all the files in the htdocs folder of your domain
-- Access your domain name in browser
+- Get the latest version of Ruby
 
 # Author
 
@@ -41,12 +27,19 @@ cd into the folder, find the index.html file and open it
 - Linkedin: [linkedin](https://www.linkedin.com/in/javier-correas-sanchez-cuesta-15289482/)
 
 # 🤝 Contributing
-Contributions, issues and feature requests are welcome!
+Contributions, issues and feature requests are welcome! Start by:
 
-Feel free to check the [issues page]().
+- Forking the project.
+- Cloning the project to your local machine.
+- cd into the project directory.
+- Run git checkout -b your-branch-name.
+- Make your contributions.
+- Push your branch up to your forked repository.
+- Open a Pull Request with a detailed description to the development branch of the original project for a review.
 
-# Attributions and Credit
-🚀
+# Attributions and Credit 🚀
+- Microverse
+- The Odin Project
 
 # Show your support
 Give a ⭐️ if you like this project!
