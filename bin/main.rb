@@ -4,7 +4,7 @@ def search(input)
     param = input.split(" ").join("+")
     @var = RestClient.get("https://www.bing.com/search?q=#{param}")
     puts "The cookies on this site are: #{@var.cookies}"
-    puts "The Get code is: #{@var.code}" 
+    puts "The code is: #{@var.code}" 
 end
 
 puts "Search Power"
