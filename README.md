@@ -1,12 +1,13 @@
 # Bing_Search
-Program built up with ruby to get HTTP information in every request to bing.com using rest-client gem.
+Program built up with ruby to get HTTP information in every request to bing.com using rest-client gem. Also displpay the links of the search.
 
 # What it does
-After adding some keywords you will get the cookies and HTTP code of the request. If you want you will also get the header(s) and body.
+After adding some keywords you will get the links of the search and if you want you will also get the header, body and cookies.
 
 # Built With
 - Ruby
-- Gem rest-client
+- Gem Rest-Client
+- Gem Nokogiri
 - VSCode
 
 # Getting Started
