@@ -4,7 +4,8 @@ require 'nokogiri'
 def search(input)
     param = input.split(" ").join("+")
     @var = RestClient.get "https://www.bing.com/search?q=#{param}"
-    @links = Nokogiri::HTML.parse(@var.body)
+    @links = Nokogiri::HTML.parse(@var.body)            
+    puts "Elements in your search: #{@links.css('ol li h2 a').length}"
     @links.css('ol li h2 a').each do |link|
         puts "#{link.text}"
         puts "*****"
