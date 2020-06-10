@@ -1,6 +1,7 @@
 # Bing_Search
 Program built up with ruby to get HTTP information in every request to bing.com using rest-client gem. Also display the links of the search.
-![screenshot](/images/screenshot1.png)
+
+![screenshot](/images/screenshot.png)
 # What it does
 After adding some keywords you will get the links of the search and if you want you will also get the header, body and cookies.
 
